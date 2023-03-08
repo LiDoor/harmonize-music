@@ -41,4 +41,4 @@ COPY --from=build /app/target/*.jar .
 EXPOSE 8095
 
 # 执行启动命令
-CMD ["java", "-jar", "/app/harmonize-music-0.0.1.jar", "--spring.profiles.active=test"]
+CMD ["java", "-jar", "/app/harmonize-music-0.0.1.jar"]
