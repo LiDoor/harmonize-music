@@ -41,4 +41,4 @@ COPY --from=build /app/target/*.jar .
 EXPOSE 8095
 
 # 执行启动命令
-CMD ["java", "-jar", "/app/harmonize-music-0.0.1.jar"]
+CMD ["java", "-jar", "/app/Harmonize-Music-0.0.1.jar"]
