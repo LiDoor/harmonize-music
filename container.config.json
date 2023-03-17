@@ -8,8 +8,8 @@
   "policyThreshold": 60,
   "envParams": {},
   "customLogs": "stdout",
-  "dataBaseName":"yili-music",
+  "dataBaseName":"harmonizemusic",
   "executeSQLs":[
-    "CREATE DATABASE IF NOT EXISTS yili-music;"
+    "CREATE DATABASE IF NOT EXISTS harmonizemusic;"
   ]
 }
